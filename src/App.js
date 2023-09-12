@@ -52,7 +52,20 @@ const App = () => {
           if (eachWord.includes("qu")) {
             return eachWord.slice(1,eachWord.length).slice(1) + ("quay")
           }
-
+          
+      //pseudocode:
+      //inpput: string
+      //output: String
+      //Process: Use match to compare the string to aeiou, if it equals null, meaning no match, then create a const to hold the index of y, one to hold our prefix, and one to hold our suffix. then one to add our suffix to our prefix to ay, and then return the combined word.
+          
+      
+          if (eachWord.match(/aeiou/g) === null) {
+            const indexY = eachWord.indexOf('y')
+            const prefix = eachWord.slice(0, indexY)
+            const suffix = eachWord.slice(indexY)
+            const pigLatinY = suffix + prefix + ("ay")
+            return pigLatinY
+          }
           
       // ACTION ITEM: this return will be the output of your Pig Latin'd code
       return eachWord
