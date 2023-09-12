@@ -41,7 +41,19 @@ const App = () => {
           if (eachWord[0] === vowelsArray[0]) {
             return eachWord + "way"
           }
+      //Pseudocode: 
+      //name: 
+      //input: string
+      //output: string
+      //process: comparing using a conditional statement user input string to see if eachWord includes "qu" then slicing at the index of "qu" and then concating "quay" at the end 
+          if (eachWord.includes("squ")) {
+            return eachWord.slice(1,eachWord.length).slice(1).slice(1) + "squay"
+          }
+          if (eachWord.includes("qu")) {
+            return eachWord.slice(1,eachWord.length).slice(1) + ("quay")
+          }
 
+          
       // ACTION ITEM: this return will be the output of your Pig Latin'd code
       return eachWord
     })
