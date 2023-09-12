@@ -32,6 +32,15 @@ const App = () => {
       console.log("vowelsArray:", vowelsArray)
 
       // ACTION ITEM: your Pig Latin logic goes here!
+      // Pseudocode: 
+      // name: vowelFunc
+      //input: a string
+      //output: a string 
+      //process: We want to compare the user input to the array of vowels and if and if the index is also 0, we would add way to the end.
+      
+          if (eachWord[0] === vowelsArray[0]) {
+            return eachWord + "way"
+          }
 
       // ACTION ITEM: this return will be the output of your Pig Latin'd code
       return eachWord
