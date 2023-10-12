@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pig-latin-translator/static/css/main.b395ba0d.css",
+    "main.js": "/pig-latin-translator/static/js/main.6cbf4b4c.js",
+    "static/js/787.83af2e5e.chunk.js": "/pig-latin-translator/static/js/787.83af2e5e.chunk.js",
+    "static/media/butcherPig.jpeg": "/pig-latin-translator/static/media/butcherPig.d2056e61131c1ebcc1c6.jpeg",
+    "index.html": "/pig-latin-translator/index.html",
+    "main.b395ba0d.css.map": "/pig-latin-translator/static/css/main.b395ba0d.css.map",
+    "main.6cbf4b4c.js.map": "/pig-latin-translator/static/js/main.6cbf4b4c.js.map",
+    "787.83af2e5e.chunk.js.map": "/pig-latin-translator/static/js/787.83af2e5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b395ba0d.css",
+    "static/js/main.6cbf4b4c.js"
+  ]
+}
